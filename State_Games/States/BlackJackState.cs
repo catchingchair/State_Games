@@ -1,5 +1,5 @@
 using System;
-public class BlackJack:State
+public class BlackJackState:State
 {
     // attributes for the total
     private int playerTotal;
@@ -8,7 +8,7 @@ public class BlackJack:State
     private Deck deck = new Deck();
 
     // play the game
-    public void Play()
+    public override void Play()
     {
         string choice;
 
