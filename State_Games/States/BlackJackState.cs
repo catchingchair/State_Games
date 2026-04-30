@@ -80,6 +80,7 @@ public class BlackJack:State
     }
 }
 
+// stores the card value. 
 public class Card
 {
     private int value;
@@ -95,7 +96,7 @@ public class Card
         }
     }
 }
-
+// generates a random card from the deck.
 public class Deck
 {
     private Random random = new Random();
