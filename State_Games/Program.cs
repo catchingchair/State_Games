@@ -1,7 +1,7 @@
 ﻿var context = new GameContext(new List<State>
 {
     new TwentyFortyEightState(),
-    new JeopardyState(),
+    new BlackJackState(),
     new WordleState()
 });
 
